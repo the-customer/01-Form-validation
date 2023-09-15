@@ -80,7 +80,15 @@ img{
     position: absolute;
     bottom: 0;
     right: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+.form-group.error small{
+    visibility: visible;
+}
+
+.form-group.success small{
+    visibility: hidden;
 }
 
 .form button{
@@ -93,4 +101,7 @@ img{
     width: 100%;
     padding: 10px;
     margin-top: 20px;
+}
+.result{
+    font-size: 24px;
 }
